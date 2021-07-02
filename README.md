@@ -1,6 +1,6 @@
 # Teach For America 
 
-*Front-end Coding Test*
+*Bryan Barello Front-end Coding Test*
 ## Description
 
 ```
