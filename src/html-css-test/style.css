@@ -1,0 +1,9 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+nav {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  /* active Nav links*/
+nav > a:active{text-decoration:underline;}
+  
