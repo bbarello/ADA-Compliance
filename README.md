@@ -12,6 +12,15 @@ Teach for America Front End Coding Test Using HTML,CSS and Javascript/Node.
 
 ```
 - HTML
-- CSS - Bootstrap 5
+- CSS - Bootstrap 
+- Responsive Design 
+- Google Fonts
 - Javascript/Node
 - ADA Accessibility
+
+
+```
+
+## Screenshots
+![Image] { teach-for-america.gif}
+```

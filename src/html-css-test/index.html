@@ -5,32 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teach For America</title>
     <meta name="description" content="Bryan Barello's Teach For America Front End Coding Test.">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Start Head -->
+    <header>
     <!-- Start Navigation Bar -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="#">My Workspace</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">My Profile</a></li>
-              <li><a href="#">Sign Out</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg p-0">
+     <div class="container-fluid">
+      <a class="navbar-brand pt-0 pb-0" href="#"><h1 class="mb-1">My Workspace</h1></a>
+       <div class="d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">My Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+    <!-- Start Card Section-->
+    <div class="container-fluid mt-5 pt-5">
+    <main class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 pt-4 pb-4">
+            <div class="card-body text-center">
+              <h2 id="#my-region"class="card-title"><a href="#my-region">My Region</a></h2>
+              <p class="card-text mt-5">Get details about office hours, events and important updates.</p>
+            </div>
           </div>
         </div>
-      </nav>
-    <script src="../javascript-test/palindrome.js"></script>
+         <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 pt-4 pb-4">
+            <div class="card-body text-center">
+              <h2 id="#my-classroom" class="card-title"><a href="#my-classroom">My Classroom</a></h2>
+              <p class="card-text mt-5">Manager your roster, lesson plans, and receive guidance from your peers and MTLDs.</p>
+            </div>
+          </div>
+        </div>
+         <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 pt-4 pb-4">
+            <div class="card-body text-center">
+              <h2 id="#resource-library" class="card-title"><a href="#resource-library">Resource Library</a></h2>
+              <p class="card-text mt-5">Search our current database of teaching resources.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom">
+        <img src="../html-css-test/logo.svg" class="card-img-bottom" alt="Teach For America" Title="Teach For America">    </footer>
 </body>
 </html>
 

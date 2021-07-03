@@ -1,9 +1,62 @@
-/* Remove the navbar's default margin-bottom and rounded borders */ 
-nav {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
+body{font-family: 'Roboto', sans-serif;color:#0a0a0a;background-color:#F0F0F0;}
 
-  /* active Nav links*/
-nav > a:active{text-decoration:underline;}
-  
+/* Headers */
+h1,h2{font-family: Merriweather, serif;}
+h1{font-size:2.55rem}
+h2.card-title > a {color:#00303c!important;opacity: .9; text-decoration:none;}
+
+/* Container */
+.container-fluid.mt-5.pt-5{height:700px;}
+
+/* Card */
+.row-cols-md-3>* {width: 31.333333%;}
+h2.card-title > a:after {color:#00303c;opacity: .9;
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  top: 15.5vh;
+  right:45%;
+  width: 0;
+  height: 3px;
+  background: gold;
+  -webkit-transition: .5s ease-in-out!important;
+  transition:width .5s ease-in-out!important;
+}
+
+h2.card-title > a:focus:after,h2.card-title > a:hover:after
+{
+ 
+  width: 50px;
+}
+.mb-1{margin-top: .35rem;margin-bottom:.7rem!important;}
+
+/* Navigation & Links*/
+nav {margin-bottom: 0;border-radius: 0!important;background-color:#00303c;}
+a.nav-link, a.nav-link.active,.navbar-brand {color:#fff!important;}
+a.nav-link:focus,a.nav-link:hover {background-color: transparent!important;text-decoration:underline;text-decoration-color:#f74b59;}
+
+/* Footer */
+.fixed-bottom > img {width: 35%!important;padding-left:5px;}
+footer{background-color:#F0F0F0;}
+
+
+/* small and medium devices up to 736px */
+@media only screen and (max-width: 736px) {
+
+  /* Navbar */
+  .navbar-brand {display: block;}
+  .navbar-nav {display: inline;width: 44vw;float: right;}
+  li.nav-item{display:inline;width: 22vw;float: left;}
+  .mb-1 {margin-bottom: 1rem!important;margin-top: .5rem;}
+  .mb-2 {margin-bottom: 0!important;}
+  .d-flex {display: inline!important;float: right;width: 100%;}
+
+  /*card*/
+  .row-cols-md-3>* {width: 93.333333%;}
+  .mt-5 {margin-top: 2rem!important;}
+  .pt-5 {padding-top: 0!important;}
+  h2.card-title > a:after {top: 13.5vh;}
+
+  /* Footer Logo */
+  .fixed-bottom > img {width: 74%!important;}
+}
