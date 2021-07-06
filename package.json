@@ -1,0 +1,28 @@
+{
+  "name": "front-end-dev-test",
+  "version": "1.0.0",
+  "description": "*Bryan Barello Front-end Coding Test*\r ## Description",
+  "main": "./src/javascript-test/palidrome.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbarello/TFA-Front-End-Developer-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbarello/TFA-Front-End-Developer-Test"
+  },
+  "homepage": "https://github.com/bbarello/TFA-Front-End-Developer-Test#readme"
+},
+
+"devDependencies": {
+  "jest": "^24.8.0"
+}

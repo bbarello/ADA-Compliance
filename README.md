@@ -22,5 +22,5 @@ Teach for America Front End Coding Test Using HTML,CSS and Javascript/Node.
 ```
 
 ## Screenshots
-![Image] { teach-for-america.gif}
+![teach-for-america](teach-for-america.gif)
 ```
