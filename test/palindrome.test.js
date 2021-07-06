@@ -1,1 +1,7 @@
-/* Export your NodeJS module from this file */
+
+var isPalindrome = function(str){
+    var reversedString = str
+    .split("")
+    .reverse("")
+    .joint("");
+}
