@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
   "bugs": {
     "url": "https://github.com/bbarello/TFA-Front-End-Developer-Test"
   },
-  "homepage": "https://github.com/bbarello/TFA-Front-End-Developer-Test#readme"
-},
-
-"devDependencies": {
-  "jest": "^24.8.0"
+  "homepage": "https://github.com/bbarello/TFA-Front-End-Developer-Test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
 }
