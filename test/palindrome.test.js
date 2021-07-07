@@ -1,7 +1,27 @@
+var expect = chai.expect;
 
-var isPalindrome = function(str){
-    var reversedString = str
-    .split("")
-    .reverse("")
-    .joint("");
-}
+describe("isPalindrome", function() {
+  it("takes a string and returns true if the string is a palindrome", function() {
+    var str = "radar";
+
+    var result = isPalindrome(str);
+
+    expect(result).to.eql(true);
+  });
+
+  it("takes a string and returns false if the string is empty", function() {
+    var str = "";
+
+    var result = isPalindrome(str);
+
+    expect(result).to.eql(false);
+  });
+
+  it("takes a string and returns false if the string is not a palindrome", function() {
+    var str = "engage";
+
+    var result = isPalindrome(str);
+
+    expect(result).to.eql(false);
+  });
+});
