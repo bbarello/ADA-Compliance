@@ -4,7 +4,7 @@
 ## Description
 
 ```
-Teach for America Front End Coding Test Using HTML,CSS and Javascript/Node.
+Teach for America ADA Compliance
 
 ```
 
