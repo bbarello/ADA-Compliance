@@ -1,6 +1,6 @@
 # Teach For America 
 
-*Bryan Barello Front-end Coding Test*
+*ADA Compliance*
 ## Description
 
 ```
